@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JordAn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'montserrat': ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-montserrat overflow-x-hidden transform all transition duration-500 ease-in-out">
+<header>
+    <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+        <div id="headerWrapper" class="flex max-[810px]:flex-wrap max-[810px]:justify-center max-[500px]:justify-start max-[810px]:gap-y-3 justify-between py-[8px] pb-[9px]"></div>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="bg-[url('img/main-background.jpg')] bg-cover w-screen bg-center bg-no-repeat">
+            <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+                <div id="heroSection"></div>
+            </div>
+        </div>
+        <div class="max-w-[1232px] w-full mx-auto px-[16px]" id="heroSearch"></div>
+    </section>
+    <section>
+        <div class="max-w-[1232px] w-full mx-auto px-[16px] my-[40px]">
+            <div id="topCourses"></div>
+            <div class="flex justify-center gap-[24px] items-center mb-[38px]" id="topTabs"></div>
+            <div class="flex items-center gap-[20px] flex-wrap justify-center" id="topCourse"></div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+            <div class="max-w-full rounded-[12px] py-[60px] pl-[60px] bg-[#1B283F] relative mb-[40px]" id="sectionPromo"></div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+            <div class="mb-[72px]">
+                <div class="max-w-full mb-[44px]" id="trendingTitle"></div>
+                <div class="flex max-[1232px]:flex-col items-center gap-5 justify-center" id="trendingWrapper">
+                    <div class="max-w-[590px] w-full" id="trendingFeatured"></div>
+                    <div class="flex flex-wrap gap-x-[20px] gap-y-[14px] justify-center" id="trendingCards"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+            <div class="mb-[40px]" id="webinarTitle"></div>
+            <div class="mb-[58px] flex gap-[20px] flex-wrap justify-center items-start" id="upcomingCourses"></div>
+        </div>
+    </section>
+    <section class="w-full bg-[#FFEC8A]">
+        <div class="max-w-[1232px] w-full mx-auto px-[16px]">
+            <div class="py-[40px] text-center" id="sectionCta"></div>
+        </div>
+    </section>
+</main>
+<script type="module" src="main.js"></script>
+</body>
+</html>
+
+

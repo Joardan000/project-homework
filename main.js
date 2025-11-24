@@ -130,12 +130,12 @@ function render() {
     <div class="h-[32px] flex gap-[19.5px] items-center">
         <div class="flex gap-[17.5px] items-center">
             <img src="${allData.icons.shopping}" alt="shopping-icon">
-            <div class="py-[8px] px-[12px] border rounded-[12px] border-black"><p class="font-[700] text-[12px] leading-[16px]">${allData.headers.login}</p></div>
+            <button class="py-[8px] px-[12px] border rounded-[12px] border-black"><p class="font-[700] text-[12px] leading-[16px]">${allData.headers.login}</p></button>
         </div>
-        <div class="h-[32px] bg-[#3DCBB1] py-[8px] px-[12px] rounded-[12px] flex gap-[8px]">
+        <button class="h-[32px] bg-[#3DCBB1] py-[8px] px-[12px] rounded-[12px] flex gap-[8px]">
             <img src="${allData.icons.signUp}" alt="sign-up-icon">
             <p class="text-white font-[700] text-[12px] leading-[16px]">${allData.headers.signUp}</p>
-        </div>
+        </button>
     </div>
     `;
     heroSection.innerHTML = `

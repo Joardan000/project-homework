@@ -97,16 +97,7 @@ function renderUpcoming(){
                 <img src="${allData.icons.person}" alt="person-icon">
                 <p class="text-[14px] leading-[18px] text-[#3DCBB1]">${course.instructor}</p>
             </div> 
-            <div class="mb-[4px] flex items-center gap-[3px]">
-                <div class="flex items-center gap-[2px]">
-                    <img src="${allData.icons.star}" alt="star-icon">
-                    <img src="${allData.icons.star}" alt="star-icon">
-                    <img src="${allData.icons.star}" alt="star-icon">
-                    <img src="${allData.icons.star}" alt="star-icon">
-                    <img src="${allData.icons.halfStar}" alt="half-star-icon">
-                </div>
-                <p class="text-[14px] leading-[18px] text-[#1B1B1B99]">${course.reviews}</p>
-            </div>
+            <p class="text-[12px] leading-[18px] text-[#1B1B1BE5] max-w-[275px] w-full mb-[4px]">${course.description}</p>
             <div class="flex items-center gap-[4px]">
                 <p class="font-[700] text-[20px] leading-[26px] text-[#1B1B1BE5]">${course.price}</p>
                 <p class="text-[16px] leading-[24px] line-through text-[#1B1B1B99]">${course.oldPrice}</p>
